@@ -24,9 +24,9 @@
 85C:\Users\Siamak\Desktop\forkify\node_modules\csso\node_modules\css-tree\lib\generator133364744187190614 1
 81C:\Users\Siamak\Desktop\forkify\node_modules\core-js\features\string\fontcolor.js133364893545333947 0
 93C:\Users\Siamak\Desktop\forkify\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest.c133364744079819255 0
-36C:\Users\Siamak\Desktop\forkify\dist133369227047636256 1
+36C:\Users\Siamak\Desktop\forkify\dist133369933334088663 1
 81C:\Users\Siamak\Desktop\forkify\node_modules\lightningcss\node\composeVisitors.js133364744066839046 0
-58C:\Users\Siamak\Desktop\forkify\src\js\views\recipeView.js133369225074685639 0
+58C:\Users\Siamak\Desktop\forkify\src\js\views\recipeView.js133369915682122597 0
 94C:\Users\Siamak\Desktop\forkify\node_modules\@parcel\transformer-js\parcel-swc.darwin-x64.node133364744711506648 0
 94C:\Users\Siamak\Desktop\forkify\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\module.c133364744079789245 0
 68C:\Users\Siamak\Desktop\forkify\node_modules\escalade\sync\index.mjs133364744048533322 0
@@ -84,7 +84,7 @@
 49C:\Users\Siamak\Desktop\forkify\src\img\icons.svg133364716093687387 0
 80C:\Users\Siamak\Desktop\forkify\node_modules\svgo\plugins\convertStyleToAttrs.js133364744051264487 0
 81C:\Users\Siamak\Desktop\forkify\node_modules\.bin\download-msgpackr-prebuilds.cmd133364745035765472 0
-42C:\Users\Siamak\Desktop\forkify\index.html133369109418113075 0
+42C:\Users\Siamak\Desktop\forkify\index.html133369229517824679 0
 63C:\Users\Siamak\Desktop\forkify\node_modules\.package-lock.json133367382889158148 0
 74C:\Users\Siamak\Desktop\forkify\node_modules\core-js\internals\freezing.js133364893545806048 0
 61C:\Users\Siamak\Desktop\forkify\node_modules\is-glob\index.js133364744047830079 0
@@ -219,7 +219,7 @@
 106C:\Users\Siamak\Desktop\forkify\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\scope133364744051289630 1
 83C:\Users\Siamak\Desktop\forkify\node_modules\svgo\plugins\convertEllipseToCircle.js133364744051085314 0
 87C:\Users\Siamak\Desktop\forkify\node_modules\core-js\actual\array\virtual\find-index.js133364893543783292 0
-48C:\Users\Siamak\Desktop\forkify\src\js\config.js133368338383649242 0
+48C:\Users\Siamak\Desktop\forkify\src\js\config.js133369928477828831 0
 99C:\Users\Siamak\Desktop\forkify\node_modules\css-select\node_modules\domutils\lib\esm\querying.d.ts133364744182152325 0
 76C:\Users\Siamak\Desktop\forkify\node_modules\caniuse-lite\data\regions\TO.js133364744054809748 0
 88C:\Users\Siamak\Desktop\forkify\node_modules\core-js\modules\es.reflect.to-string-tag.js133364893540514740 0
@@ -231,7 +231,7 @@
 94C:\Users\Siamak\Desktop\forkify\node_modules\core-js\features\array\virtual\find-last-index.js133364893543949534 0
 80C:\Users\Siamak\Desktop\forkify\node_modules\core-js\internals\engine-is-deno.js133364893538737689 0
 60C:\Users\Siamak\Desktop\forkify\node_modules\posthtml-render133364744048289766 1
-52C:\Users\Siamak\Desktop\forkify\src\js\controller.js133369225954399848 0
+52C:\Users\Siamak\Desktop\forkify\src\js\controller.js133369933333831126 0
 93C:\Users\Siamak\Desktop\forkify\node_modules\core-js\internals\copy-constructor-properties.js133364893537723845 0
 81C:\Users\Siamak\Desktop\forkify\node_modules\core-js\stable\regexp\constructor.js133364893537698699 0
 84C:\Users\Siamak\Desktop\forkify\node_modules\core-js\actual\dom-collections\index.js133364893548123792 0
@@ -252,7 +252,7 @@
 71C:\Users\Siamak\Desktop\forkify\node_modules\msgpackr-extract\README.md133364744048553322 0
 95C:\Users\Siamak\Desktop\forkify\node_modules\csso\node_modules\css-tree\cjs\tokenizer\index.cjs133364744172022718 0
 83C:\Users\Siamak\Desktop\forkify\node_modules\core-js\modules\es.number.parse-int.js133364893540003749 0
-47C:\Users\Siamak\Desktop\forkify\src\js\model.js133369227047292412 0
+47C:\Users\Siamak\Desktop\forkify\src\js\model.js133369930908690369 0
 74C:\Users\Siamak\Desktop\forkify\node_modules\type-fest\source\entries.d.ts133364744048976380 0
 93C:\Users\Siamak\Desktop\forkify\node_modules\csso\node_modules\css-tree\cjs\syntax\create.cjs133364744170148896 0
 57C:\Users\Siamak\Desktop\forkify\node_modules\caniuse-lite133364744055277893 1
@@ -277,7 +277,7 @@
 83C:\Users\Siamak\Desktop\forkify\node_modules\caniuse-lite\data\features\auxclick.js133364744050230987 0
 85C:\Users\Siamak\Desktop\forkify\node_modules\css-tree\cjs\lexer\generic-an-plus-b.cjs133364744050411738 0
 64C:\Users\Siamak\Desktop\forkify\node_modules\lmdb\dict\dict2.txt133364744091415539 0
-52C:\Users\Siamak\Desktop\forkify\src\js\views\View.js133369118138313308 0
+52C:\Users\Siamak\Desktop\forkify\src\js\views\View.js133369914203209040 0
 79C:\Users\Siamak\Desktop\forkify\node_modules\core-js\stable\instance\unshift.js133364893561200799 0
 77C:\Users\Siamak\Desktop\forkify\node_modules\postcss-value-parser\lib\unit.js133364744048311735 0
 73C:\Users\Siamak\Desktop\forkify\node_modules\core-js\features\array\at.js133364893536483964 0
@@ -6614,7 +6614,7 @@
 74C:\Users\Siamak\Desktop\forkify\node_modules\caniuse-lite\data\features.js133364744052563055 0
 85C:\Users\Siamak\Desktop\forkify\node_modules\core-js\features\symbol\async-dispose.js133364893536297978 0
 86C:\Users\Siamak\Desktop\forkify\node_modules\core-js\features\symbol\async-iterator.js133364893536397702 0
-59C:\Users\Siamak\Desktop\forkify\dist\index.f7626f62.css.map133369086353083588 0
+59C:\Users\Siamak\Desktop\forkify\dist\index.f7626f62.css.map133369908583454771 0
 79C:\Users\Siamak\Desktop\forkify\node_modules\core-js\features\symbol\dispose.js133364893538512935 0
 75C:\Users\Siamak\Desktop\forkify\node_modules\core-js\features\symbol\for.js133364893545766039 0
 92C:\Users\Siamak\Desktop\forkify\node_modules\core-js\features\symbol\is-concat-spreadable.js133364893550012535 0
@@ -7280,7 +7280,7 @@
 74C:\Users\Siamak\Desktop\forkify\node_modules\core-js\es\data-view\index.js133364893548279053 0
 83C:\Users\Siamak\Desktop\forkify\node_modules\@swc\helpers\src\_get_prototype_of.mjs133364744058029508 0
 83C:\Users\Siamak\Desktop\forkify\node_modules\core-js\es\array-buffer\constructor.js133364893537558344 0
-54C:\Users\Siamak\Desktop\forkify\dist\index.e37f48ea.js133369227047611117 0
+54C:\Users\Siamak\Desktop\forkify\dist\index.e37f48ea.js133369933334058669 0
 76C:\Users\Siamak\Desktop\forkify\node_modules\caniuse-lite\data\regions\DM.js133364744052330561 0
 77C:\Users\Siamak\Desktop\forkify\node_modules\core-js\es\array-buffer\index.js133364893548259055 0
 79C:\Users\Siamak\Desktop\forkify\node_modules\core-js\es\array-buffer\is-view.js133364893550397200 0
@@ -9256,7 +9256,7 @@
 120C:\Users\Siamak\Desktop\forkify\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Comment.js133364744049377965 0
 128C:\Users\Siamak\Desktop\forkify\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\DeclarationList.js133364744050162629 0
 122C:\Users\Siamak\Desktop\forkify\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Dimension.js133364744050187771 0
-55C:\Users\Siamak\Desktop\forkify\dist\icons.21bad73c.svg133369086353374814 0
+55C:\Users\Siamak\Desktop\forkify\dist\icons.21bad73c.svg133369908583464775 0
 117C:\Users\Siamak\Desktop\forkify\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Hash.js133364744050431744 0
 123C:\Users\Siamak\Desktop\forkify\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Identifier.js133364744050451752 0
 125C:\Users\Siamak\Desktop\forkify\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\MediaFeature.js133364744050809810 0
@@ -9699,11 +9699,11 @@
 60C:\Users\Siamak\Desktop\forkify\node_modules\.bin\semver.ps1133364745035775475 0
 54C:\Users\Siamak\Desktop\forkify\node_modules\.bin\svgo133364745035785478 0
 76C:\Users\Siamak\Desktop\forkify\node_modules\.bin\update-browserslist-db.ps1133364745035775475 0
-57C:\Users\Siamak\Desktop\forkify\dist\favicon.8b2f57bf.png133369086353033580 0
+57C:\Users\Siamak\Desktop\forkify\dist\favicon.8b2f57bf.png133369908583414776 0
 56C:\Users\Siamak\Desktop\forkify\dist\forkify.3464ddca.js133364864432563621 0
 60C:\Users\Siamak\Desktop\forkify\dist\forkify.3464ddca.js.map133364864432603628 0
-55C:\Users\Siamak\Desktop\forkify\dist\icons.dfd7a6db.svg133369086353374814 0
-58C:\Users\Siamak\Desktop\forkify\dist\index.e37f48ea.js.map133369227047626141 0
-55C:\Users\Siamak\Desktop\forkify\dist\index.f7626f62.css133369086353033580 0
-47C:\Users\Siamak\Desktop\forkify\dist\index.html133369198891607270 0
-54C:\Users\Siamak\Desktop\forkify\dist\logo.726d37a8.png133369086353194774 0
+55C:\Users\Siamak\Desktop\forkify\dist\icons.dfd7a6db.svg133369908583464775 0
+58C:\Users\Siamak\Desktop\forkify\dist\index.e37f48ea.js.map133369933334078668 0
+55C:\Users\Siamak\Desktop\forkify\dist\index.f7626f62.css133369908583424765 0
+47C:\Users\Siamak\Desktop\forkify\dist\index.html133369908583614807 0
+54C:\Users\Siamak\Desktop\forkify\dist\logo.726d37a8.png133369908583524790 0
