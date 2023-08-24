@@ -619,6 +619,12 @@ const controlSearchResults = async function() {
         console.log(err);
     }
 };
+const controlServing = function(newServing) {
+    //Update the recipe serving(in state)
+    _modelJs.updateServing(newServing);
+    // update the recipe view
+    (0, _recipeViewJsDefault.default).render(_modelJs.state.recipe);
+};
 const controllPagination = function(goToPage) {
     //1) Render NEW results
     (0, _resultsViewJsDefault.default).render(_modelJs.getSearchResultsPage(goToPage));
@@ -629,6 +635,7 @@ const init = function() {
     (0, _recipeViewJsDefault.default).addHandlerRender(controlRecipes);
     (0, _searchViewJsDefault.default).addHandlerSearch(controlSearchResults);
     (0, _paginationViewJsDefault.default).addHandlerClick(controllPagination);
+    (0, _recipeViewJsDefault.default).addHandlerUpdateServing(controlServing);
 };
 init();
 
@@ -2643,6 +2650,7 @@ parcelHelpers.export(exports, "state", ()=>state);
 parcelHelpers.export(exports, "loadRecipe", ()=>loadRecipe);
 parcelHelpers.export(exports, "loadSearchResult", ()=>loadSearchResult);
 parcelHelpers.export(exports, "getSearchResultsPage", ()=>getSearchResultsPage);
+parcelHelpers.export(exports, "updateServing", ()=>updateServing);
 var _regeneratorRuntime = require("regenerator-runtime");
 var _configJs = require("./config.js");
 var _helpersJs = require("./helpers.js");
@@ -2699,6 +2707,12 @@ const getSearchResultsPage = function(page = state.search.page) {
     const end = page * state.search.resultsPerPage;
     return state.search.results.slice(start, end);
 };
+const updateServing = function(newServing) {
+    state.recipe.ingredients.forEach((ing)=>{
+        ing.quantity = ing.quantity * newServing / state.recipe.servings;
+    });
+    state.recipe.servings = newServing;
+};
 
 },{"regenerator-runtime":"dXNgZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./config.js":"k5Hzs","./helpers.js":"hGI1E"}],"k5Hzs":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -2751,6 +2765,14 @@ class RecipeView extends (0, _viewJsDefault.default) {
             "hashchange",
             "load"
         ].forEach((ev)=>window.addEventListener(ev, handler));
+    }
+    addHandlerUpdateServing(handler) {
+        this._parentElement.addEventListener("click", function(e) {
+            const btn = e.target.closest(".btn--update-servings");
+            if (!btn) return;
+            const { updateTo } = btn.dataset;
+            if (+updateTo > 0) handler(+updateTo);
+        });
     }
     _generateMarkup() {
         return `
