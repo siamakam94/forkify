@@ -1,6 +1,16 @@
 import icons from 'url:../../img/icons.svg';
+
 export default class View {
   _data;
+
+  /**
+   * Render the received object to the DOM
+   * @param {Object | Object[]} data The data rendered (e.g recipe)
+   * @param {boolean} [render=true] If false, create markup string instead of rendering to the DOM
+   * @returns {undefined | string} A markup string is returned if render=false
+   * @this {object} View instance
+   * @author Siamak Am
+   */
 
   render(data, render = true) {
     if (!data || (Array.isArray(data) && data.length === 0))
@@ -60,7 +70,7 @@ export default class View {
     <div class="error">
       <div>
         <svg>
-          <use href="src/img/${icons}#icon-alert-triangle"></use>
+          <use href="${icons}#icon-alert-triangle"></use>
         </svg>
       </div>
       <p>${message}</p>
@@ -74,7 +84,7 @@ export default class View {
     <div class="message">
       <div>
         <svg>
-          <use href="src/img/${icons}#icon-smile"></use>
+          <use href="${icons}#icon-smile"></use>
         </svg>
       </div>
       <p>${message}</p>
